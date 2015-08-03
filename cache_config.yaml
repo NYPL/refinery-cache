@@ -1,5 +1,6 @@
 refresh-urls:
   10:
+    - nypl/ndo/v0.1/site-data/header-items?include=related-mega-menu-panes.current-mega-menu-items.related-content.authors
     - nypl/ndo/v0.1/alerts?filter[scope]=all
     - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
     - nypl/locations/v1.0/locations
