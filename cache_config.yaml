@@ -1,6 +1,5 @@
 refresh-urls:
   10:
-    - nypl/ndo/v0.1/site-data/header-items?include=related-mega-menu-panes.current-mega-menu-item.related-content.authors
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/alerts?filter[scope]=all
