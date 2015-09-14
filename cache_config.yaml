@@ -1,7 +1,6 @@
 refresh-urls:
   10:
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
-    - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/alerts?filter[scope]=all
     - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
     - nypl/locations/v1.0/locations
