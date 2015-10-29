@@ -1,6 +1,6 @@
 refresh-urls:
   10:
-    - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists.list-items
+    - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists
     - nypl/ndo/v0.1/site-data/header-items?filter[relationships][parent]=null&include=children,related-mega-menu-panes.current-mega-menu-item.images,related-mega-menu-panes.current-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.current-mega-menu-item.related-content.location,related-mega-menu-panes.default-mega-menu-item.images,related-mega-menu-panes.default-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.default-mega-menu-item.related-content.location
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
