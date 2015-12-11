@@ -5,7 +5,9 @@ refresh-urls:
     - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists
     - nypl/ndo/v0.1/site-data/header-items?filter[relationships][parent]=null&include=children,related-mega-menu-panes.current-mega-menu-item.images,related-mega-menu-panes.current-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.current-mega-menu-item.related-content.location,related-mega-menu-panes.default-mega-menu-item.images,related-mega-menu-panes.default-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.default-mega-menu-item.related-content.location
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=picks.item.tags,picks.age
-    - nypl/ndo/v0.1/staff-picks/staff-pick-lists?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
+    - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=monthly&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
+    - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=c100&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
+    - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=ya100&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/alerts?filter[scope]=all
     - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
     - nypl/locations/v1.0/locations
