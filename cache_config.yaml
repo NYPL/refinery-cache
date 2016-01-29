@@ -1,5 +1,6 @@
 refresh-urls:
   10:
+    - nypl/ndo/v0.1/site-data/containers?include=slots.current-item.rectangular-image.full-uri,slots.current-item.banner-image.full-uri,slots.current-item.book-cover-image,children.slots.current-item.rectangular-image
     - nypl/ndo/v0.1/site-data/collections?include=top-level-containers.slots.current-item.rectangular-image
     - nypl/ndo/v0.1/book-lists
     - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists
