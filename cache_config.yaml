@@ -1,9 +1,8 @@
 refresh-urls:
+  # 10 minutes
   10:
-    # 5 minutes
     - nypl/ndo/v0.1/alerts?filter[scope]=all
     - nypl/locations/v1.0/alerts
-    # 10 minutes
     - nypl/ndo/v0.1/site-data/header-items?filter[relationships][parent]=null&include=children,related-mega-menu-panes.current-mega-menu-item.images,related-mega-menu-panes.current-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.current-mega-menu-item.related-content.location,related-mega-menu-panes.default-mega-menu-item.images,related-mega-menu-panes.default-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.default-mega-menu-item.related-content.location
     - nypl/ndo/v0.1/site-data/containers?filter[slug]=banner|whats-happening|learn-something-new|staff-picks|recommended-recent-releases|from-our-blog|of-note&include=slots.current-item.rectangular-image.full-uri,slots.current-item.banner-image.full-uri,slots.current-item.book-cover-image,children.slots.current-item.rectangular-image
     - nypl/locations/v1.0/locations
@@ -124,7 +123,8 @@ refresh-urls:
     - nypl/locations/v1.0/divisions/photography-collection
     - nypl/locations/v1.0/divisions/spencer-collection
     - nypl/locations/v1.0/divisions/wallach-division
-    # 1 day
+  # 1 day
+  1440:
     - nypl/locations/v1.0/terms
     - nypl/locations/v1.0/amenities
     - nypl/locations/v1.0/amenities/7975
@@ -168,12 +168,12 @@ refresh-urls:
     - nypl/locations/v1.0/amenities/8000
     - nypl/locations/v1.0/amenities/8001
     - nypl/locations/v1.0/amenities/8004
-    # 7 days
+    - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
+  # 7 days
+  10080:
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=monthly&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=c100&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=ya100&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
-    - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
-    # 30 days
     - nypl/ndo/v0.1/book-lists
     - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists
