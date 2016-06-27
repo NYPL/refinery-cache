@@ -98,6 +98,7 @@ refresh-urls:
     - nypl/locations/v1.0/locations/grand-central
     - nypl/locations/v1.0/locations/battery-park-city
     - nypl/locations/v1.0/locations/mariners-harbor
+    - nypl/locations/v1.0/locations/53rd-street
     - nypl/locations/v1.0/divisions/periodicals-room
     - nypl/locations/v1.0/divisions/map-division
     - nypl/locations/v1.0/divisions/milstein
