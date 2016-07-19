@@ -5,6 +5,7 @@ refresh-urls:
     - nypl/locations/v1.0/alerts
     - nypl/ndo/v0.1/site-data/header-items?filter[relationships][parent]=null&include=children,related-mega-menu-panes.current-mega-menu-item.images,related-mega-menu-panes.current-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.current-mega-menu-item.related-content.location,related-mega-menu-panes.default-mega-menu-item.images,related-mega-menu-panes.default-mega-menu-item.related-content.authors.nypl-location,related-mega-menu-panes.default-mega-menu-item.related-content.location
     - nypl/ndo/v0.1/site-data/containers?filter[slug]=banner|whats-happening|learn-something-new|staff-picks|recommended-recent-releases|from-our-blog|of-note&include=slots.current-item.rectangular-image.full-uri,slots.current-item.banner-image.full-uri,slots.current-item.book-cover-image,children.slots.current-item.rectangular-image
+    - nypl/ndo/v0.1/site-data/containers?include=slots.current-item.square-image
     - nypl/locations/v1.0/locations
     - nypl/locations/v1.0/divisions
     - nypl/locations/v1.0/locations/115th-street
