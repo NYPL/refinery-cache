@@ -181,3 +181,4 @@ refresh-urls:
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=ya100&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/book-lists
     - nypl/ndo/v0.1/book-lists/book-list-users?include=book-lists
+    - nypl/ndo/v0.1/blogs/blogger-profiles
