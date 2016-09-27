@@ -172,7 +172,9 @@ refresh-urls:
     - nypl/locations/v1.0/amenities/8001
     - nypl/locations/v1.0/amenities/8004
     - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
-    - nypl/ndo/v0.1/content/nodes/blogs?include=blog-profiles.headshot,blog-series,blog-subjects
+    - nypl/ndo/v0.1/content/nodes/blogs?include=blog-profiles.author,blog-profiles.headshot,blog-series.image,blog-subjects&page[number]=1&page[size]=25
+    - nypl/ndo/v0.1/blogs/blogger-profiles?include=author,headshot,location,blog-posts&fields[author]=first-name,last-name,title&fields[library]=full-name,slug&fields[image]=uri&fields[blog]=title,alias,date-created
+    - 
   # 7 days
   10080:
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?include=picks.item.tags,picks.age
