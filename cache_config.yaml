@@ -2,6 +2,7 @@ refresh-urls:
   # 10 minutes
   10:
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists?filter[list-type]=monthly&fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&page[size]=1&include=previous-list,next-list,picks.item.tags,picks.age
+    - nypl/ndo/v0.1/staff-picks/staff-pick-lists/monthly-2018-01-01?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists/monthly-2017-09-01?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists/monthly-2017-06-01?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&include=previous-list,next-list,picks.item.tags,picks.age
     - nypl/ndo/v0.1/staff-picks/staff-pick-lists/monthly-2017-04-01?fields[staff-pick-tag]=tag&fields[staff-pick-age]=age&fields[staff-pick-item]=title,author,catalog-slug,image-slug,tags,ebook-uri&include=previous-list,next-list,picks.item.tags,picks.age
