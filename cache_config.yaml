@@ -13,7 +13,6 @@ refresh-urls:
     - nypl/locations/v1.0/locations/schomburg
     - nypl/locations/v1.0/locations/lpa
     - nypl/locations/v1.0/locations/snfl
-    - nypl/locations/v1.0/locations/snfl/business
     - nypl/locations/v1.0/locations/bronx-library-center
     - nypl/locations/v1.0/locations/st-george-library-center
     - nypl/locations/v1.0/locations/53rd-street
