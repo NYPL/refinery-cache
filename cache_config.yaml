@@ -9,26 +9,27 @@ refresh-urls:
     - nypl/ndo/v0.1/site-data/containers?include=slots.current-item.square-image
     - nypl/locations/v1.0/locations
     - nypl/locations/v1.0/divisions
+    - nypl/locatinos/v1.0/centers
     - nypl/locations/v1.0/locations/schwarzman
     - nypl/locations/v1.0/locations/schomburg
     - nypl/locations/v1.0/locations/lpa
     - nypl/locations/v1.0/locations/snfl
-    - nypl/locations/v1.0/locations/bronx-library-center
-    - nypl/locations/v1.0/locations/st-george-library-center
+    - nypl/locations/v1.0/locations/115th-street
+    - nypl/locations/v1.0/locations/125th-street
     - nypl/locations/v1.0/locations/53rd-street
     - nypl/locations/v1.0/locations/58th-street
     - nypl/locations/v1.0/locations/67th-street
     - nypl/locations/v1.0/locations/96th-street
-    - nypl/locations/v1.0/locations/115th-street
-    - nypl/locations/v1.0/locations/125th-street
     - nypl/locations/v1.0/locations/aguilar
     - nypl/locations/v1.0/locations/allerton
     - nypl/locations/v1.0/locations/battery-park-city
     - nypl/locations/v1.0/locations/baychester
     - nypl/locations/v1.0/locations/belmont
     - nypl/locations/v1.0/locations/bloomingdale
+    - nypl/locations/v1.0/locations/bronx-library-center
     - nypl/locations/v1.0/locations/castle-hill
     - nypl/locations/v1.0/locations/cathedral
+    - nypl/locations/v1.0/locations/charleston
     - nypl/locations/v1.0/locations/chatham-square
     - nypl/locations/v1.0/locations/city-island
     - nypl/locations/v1.0/locations/clasons-point
@@ -41,6 +42,7 @@ refresh-urls:
     - nypl/locations/v1.0/locations/fort-washington
     - nypl/locations/v1.0/locations/francis-martin
     - nypl/locations/v1.0/locations/george-bruce
+    - nypl/locations/v1.0/locations/grand-central
     - nypl/locations/v1.0/locations/grand-concourse
     - nypl/locations/v1.0/locations/great-kills
     - nypl/locations/v1.0/locations/hamilton-fish-park
@@ -50,7 +52,6 @@ refresh-urls:
     - nypl/locations/v1.0/locations/high-bridge
     - nypl/locations/v1.0/locations/hudson-park
     - nypl/locations/v1.0/locations/huguenot-park
-    - nypl/locations/v1.0/locations/grand-central
     - nypl/locations/v1.0/locations/hunts-point
     - nypl/locations/v1.0/locations/inwood
     - nypl/locations/v1.0/locations/jefferson-market
@@ -84,6 +85,7 @@ refresh-urls:
     - nypl/locations/v1.0/locations/south-beach
     - nypl/locations/v1.0/locations/spuyten-duyvil
     - nypl/locations/v1.0/locations/st-agnes
+    - nypl/locations/v1.0/locations/st-george-library-center
     - nypl/locations/v1.0/locations/stapleton
     - nypl/locations/v1.0/locations/throgs-neck
     - nypl/locations/v1.0/locations/todt-hill-westerleigh
@@ -100,32 +102,39 @@ refresh-urls:
     - nypl/locations/v1.0/locations/woodlawn-heights
     - nypl/locations/v1.0/locations/woodstock
     - nypl/locations/v1.0/locations/yorkville
+    - nypl/locations/v1.0/divisions/arents-collection
+    - nypl/locations/v1.0/divisions/art-and-artifacts-division
+    - nypl/locations/v1.0/divisions/art-architecture-collection
+    - nypl/locations/v1.0/divisions/berg-collection-english-and-american-literature
+    - nypl/locations/v1.0/divisions/billy-rose-theatre-division
+    - nypl/locations/v1.0/divisions/general-research-division
+    - nypl/locations/v1.0/divisions/jbh-research-and-reference-division
+    - nypl/locations/v1.0/divisions/jerome-robbins-dance-division
+    - nypl/locations/v1.0/divisions/jewish-division
+    - nypl/locations/v1.0/divisions/manuscripts-archives-and-rare-books-division
+    - nypl/locations/v1.0/divisions/manuscripts-division
     - nypl/locations/v1.0/divisions/map-division
     - nypl/locations/v1.0/divisions/milstein
-    - nypl/locations/v1.0/divisions/jewish-division
-    - nypl/locations/v1.0/divisions/pforzheimer-collection-shelley-and-his-circle
-    - nypl/locations/v1.0/divisions/berg-collection-english-and-american-literature
-    - nypl/locations/v1.0/divisions/art-architecture-collection
-    - nypl/locations/v1.0/divisions/general-research-division
-    - nypl/locations/v1.0/divisions/periodicals-room
-    - nypl/locations/v1.0/divisions/manuscripts-division
-    - nypl/locations/v1.0/divisions/arents-collection
-    - nypl/locations/v1.0/divisions/rare-books-division
-    - nypl/locations/v1.0/divisions/print-collection
-    - nypl/locations/v1.0/divisions/photography-collection
-    - nypl/locations/v1.0/divisions/spencer-collection
-    - nypl/locations/v1.0/divisions/wallach-division
-    - nypl/locations/v1.0/divisions/picture-collection
-    - nypl/locations/v1.0/divisions/art-and-artifacts-division
-    - nypl/locations/v1.0/divisions/jbh-research-and-reference-division
-    - nypl/locations/v1.0/divisions/manuscripts-archives-and-rare-books-division
     - nypl/locations/v1.0/divisions/moving-image-and-recorded-sound-division
-    - nypl/locations/v1.0/divisions/photographs-and-prints-division
-    - nypl/locations/v1.0/divisions/theatre-film-and-tape-archive
-    - nypl/locations/v1.0/divisions/billy-rose-theatre-division
-    - nypl/locations/v1.0/divisions/jerome-robbins-dance-division
     - nypl/locations/v1.0/divisions/music-division
+    - nypl/locations/v1.0/divisions/periodicals-room
+    - nypl/locations/v1.0/divisions/pforzheimer-collection-shelley-and-his-circle
+    - nypl/locations/v1.0/divisions/photographs-and-prints-division
+    - nypl/locations/v1.0/divisions/photography-collection
+    - nypl/locations/v1.0/divisions/picture-collection
+    - nypl/locations/v1.0/divisions/print-collection
+    - nypl/locations/v1.0/divisions/rare-books-division
     - nypl/locations/v1.0/divisions/rodgers-and-hammerstein-archives-recorded-sound
+    - nypl/locations/v1.0/divisions/spencer-collection
+    - nypl/locations/v1.0/divisions/theatre-film-and-tape-archive
+    - nypl/locations/v1.0/divisions/wallach-division
+    - nypl/locations/v1.0/centers/business
+    - nypl/locations/v1.0/centers/childrens
+    - nypl/locations/v1.0/centers/teen
+    - nypl/locations/v1.0/centers/pasculano-learning
+    - nypl/locations/v1.0/centers/center-research-humanities
+    - nypl/locations/v1.0/centers/marron-circulating
+    - nypl/locations/v1.0/centers/event-center
     - nypl/ndo/v0.1/staff-profiles?include=person,headshot,division,location,subjects.parent&fields[library]=full-name,slug,short-name,symbol&fields[division]=full-name,slug&fields[image]=uri
     - nypl/locations/v1.0/amenities/7972
     - nypl/locations/v1.0/amenities/7964
