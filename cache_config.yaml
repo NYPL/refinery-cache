@@ -3,10 +3,6 @@ refresh-urls:
   10:
     - nypl/ndo/v0.1/content/alerts?filter[scope]=all
     - nypl/ndo/v0.1/content/alerts?filter[scope]=location
-    - nypl/locations/v1.0/content/alerts
-    - nypl/ndo/v0.1/site-data/containers?filter[slug]=banner|whats-happening|learn-something-new|staff-picks|recommended-recent-releases|from-our-blog|of-note&include=slots.current-item.rectangular-image.full-uri,slots.current-item.banner-image.full-uri,slots.current-item.book-cover-image,children.slots.current-item.rectangular-image
-    - nypl/ndo/v0.1/site-data/containers?filter[slug]=banner|whats-happening|learn-something-new|staff-picks|recommended-recent-releases|from-our-blog|of-note&include=slots.current-item.rectangular-image.full-uri,slots.current-item.banner-image.full-uri,slots.current-item.book-cover-image,slots.current-item.related-node.authors.headshot,children.slots.current-item.rectangular-image,slots.current-item.mobile-banner-image.full-uri
-    - nypl/ndo/v0.1/site-data/containers?include=slots.current-item.square-image
     - nypl/locations/v1.0/locations
     - nypl/locations/v1.0/divisions
     - nypl/locatinos/v1.0/centers
