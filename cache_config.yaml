@@ -3,9 +3,9 @@ refresh-urls:
   10:
     - nypl/ndo/v0.1/content/alerts?filter[scope]=all
     - nypl/ndo/v0.1/content/alerts?filter[scope]=location
-    - nypl/locations/v1.0/locations
-    - nypl/locations/v1.0/divisions
-    - nypl/locatinos/v1.0/centers
+#    - nypl/locations/v1.0/locations
+#    - nypl/locations/v1.0/divisions
+#    - nypl/locatinos/v1.0/centers
     - nypl/locations/v1.0/locations/schwarzman
     - nypl/locations/v1.0/locations/schomburg
     - nypl/locations/v1.0/locations/lpa
